@@ -1,5 +1,5 @@
 :root[color-theme="pink"] {
-  --background: #4ee65b;
+  --background: #ffb6ea;
   /*let --background = #ffb6ea;*/
   /*--background = #ffb6ea*/
   --fontColor: #222;
@@ -12,18 +12,18 @@
 }
 
 /*
-  let --background;
-  let --fontColor;
-  
-  if(root.getAttribute("color-theme") === "pink"){
-      --background = #ffb6ea
-      --fontColor = #222
-  
-  } else if (root.getAttribute("color-theme") === "dark") {
-      --background = #000
-      --fontColor #fff
-  }
-  */
+let --background;
+let --fontColor;
+
+if(root.getAttribute("color-theme") === "pink"){
+    --background = #ffb6ea
+    --fontColor = #222
+
+} else if (root.getAttribute("color-theme") === "dark") {
+    --background = #000
+    --fontColor #fff
+}
+*/
 
 * {
   margin: 0;
